@@ -15,6 +15,14 @@
     border: 5px solid #ff66d8;
 }
 
+.iconSquare {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    padding: 3px;
+    border: 5px solid #ff66d8;
+}
+
 h1 {
     position: relative;
     color: #333333;
@@ -24,19 +32,40 @@ h1 {
     font-family: 'TitleFont', Fallback, sans-serif;
 }
 
-h2{
-    color: floralwhite;
-    padding: 40px;
-}
-
-p {
+.light {
     color: floralwhite;
     padding-left: 100px;
     padding-right: 100px;
-    
+}
+
+.dark {
+    color:#333333;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.darkTitle {
+    color: #333333;
+    padding: 50px;
+    margin-bottom: -30px;
+    size: 420px;
+    font-family: 'TitleFont', Fallback, sans-serif;
+}
+
+.lightTitle {
+    color: floralwhite;
+    padding: 50px;
+    margin-bottom: -30px;
 }
 
 h5 {
+    position: relative;
+    color: #333333;
+    left: 50%;
+    margin-left: 
+}
+
+h6{
     position: relative;
     color: #333333;
     left: 50%;
@@ -63,4 +92,8 @@ a {
 #about{
     margin-top: 200px;
     background: linear-gradient(#43cea2, #185a9d);
+}
+
+#learning{
+    padding-bottom: 100px;
 }
