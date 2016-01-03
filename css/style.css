@@ -1,0 +1,66 @@
+
+#logo {
+    position: relative;
+    left: 50%;
+    width: 250px;
+    height: 200px;
+    margin-left: -125px;
+}
+
+.icon {
+    width: 200px;
+    height: 150px;
+    position: relative;
+    padding: 3px;
+    border: 5px solid #ff66d8;
+}
+
+h1 {
+    position: relative;
+    color: #333333;
+    left: 50%;
+    margin-left: -150px;
+    font-size: 40px;
+    font-family: 'TitleFont', Fallback, sans-serif;
+}
+
+h2{
+    color: floralwhite;
+    padding: 40px;
+}
+
+p {
+    color: floralwhite;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+h5 {
+    position: relative;
+    color: #333333;
+    left: 50%;
+    margin-left: -60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+  font-family: 'TitleFont';
+  src: url('curlyfont.ttf')  format('truetype');
+}
+
+.centeredButtons {
+    position:relative;
+    left: 50%;
+    margin-left: -220px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#about{
+    margin-top: 200px;
+    background: linear-gradient(#43cea2, #185a9d);
+}
