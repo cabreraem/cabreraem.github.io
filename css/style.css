@@ -27,8 +27,8 @@ h1 {
     position: relative;
     color: #333333;
     left: 50%;
-    margin-left: -150px;
-    font-size: 40px;
+    margin-left: -200px;
+    font-size: 80px;
     font-family: 'TitleFont', Fallback, sans-serif;
 }
 
@@ -62,7 +62,7 @@ h5 {
     position: relative;
     color: #333333;
     left: 50%;
-    margin-left: 
+    margin-left: -60px;
 }
 
 h6{
@@ -78,22 +78,25 @@ a {
 
 @font-face {
   font-family: 'TitleFont';
-  src: url('curlyfont.ttf')  format('truetype');
+  src: url('Pacifico.ttf')  format('truetype');
 }
 
 .centeredButtons {
     position:relative;
     left: 50%;
-    margin-left: -220px;
+    margin-left: -235px;
     margin-top: 50px;
     margin-bottom: 100px;
 }
 
-#about{
-    margin-top: 200px;
-    background: linear-gradient(#43cea2, #185a9d);
+iframe {
+    position:relative;
+    left: 50%;
+    margin-left: -280px;
+    margin-bottom: 40px;
 }
 
-#learning{
-    padding-bottom: 100px;
+.styled{
+    margin-top: 200px;
+    background: linear-gradient(#43cea2, #185a9d);
 }
